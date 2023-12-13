@@ -1,7 +1,40 @@
 .section {
+    position: fixed;
+    right: 50%;
+    margin-top: 160px;
+    margin-left: 30px;
     display: flex;
     flex-direction: column;
     justify-content:flex-start;
 
-    margin-top: 60px;
+    color: white;
+}
+
+.section-title {
+    margin: 10px 0px 10px 0px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    /* margin-left: 30px; */
+}
+
+.play-button {
+    padding: 5px 30px 5px 30px;
+    margin-right: 10px;
+    border: 0;
+    border-radius: 4px;
+    background-color: rgba(109, 109, 110, 0.7);
+    color: white;
+    
+}
+
+.mylist-button {
+    padding: 5px 30px 5px 30px;
+    border: 0;
+    border-radius: 4px;
+    background-color: rgba(109, 109, 110, 0.7);
+    color: white;
 }
