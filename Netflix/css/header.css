@@ -1,0 +1,58 @@
+.background {
+    background-image: url(../img/background.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+
+    position: fixed; /* 배경 이미지를 화면에 고정 */
+    top: -100px;
+    left: 0;
+    right: 0;
+    bottom: 0; /* 배경 이미지를 화면 전체에 적용 */
+    z-index: -1; /* 내용이 배경 위에 나타나도록 z-index 설정 */
+}
+
+.header {
+    /* background-image: url(../img/background.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative; */
+
+    height: 40px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+
+    margin: 0;
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+}
+
+.netflix-logo {
+    height: 30px;
+    margin-left: 10px;
+}
+
+.right-section {
+    width: 180px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.user-icon {
+    height: 30px;
+}
