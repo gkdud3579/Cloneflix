@@ -1,3 +1,8 @@
+.main {
+    position: fixed;
+    z-index: 10;
+}
+
 .main-title1 {
     display: inline-block;
     color: #e5e5e5;
