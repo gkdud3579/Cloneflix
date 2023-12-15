@@ -1,13 +1,15 @@
 .main {
     position: fixed;
-    z-index: 10;
+    top: 300px;
+    left: 0;
+    z-index: 20;
 }
 
 .main-title1 {
     display: inline-block;
     color: #e5e5e5;
     right: 50%;
-    margin-top: 400px;
+    margin-top: 200px;
     /* margin-left: 5px; */
     font-size: 15px;
     font-family: "Prompt", sans-serif;
@@ -70,6 +72,6 @@
 
 .poster-container1 img:hover,
 .poster-container2 img:hover {
-    transform: scale(2.0);
+    transform: scale(1.5);
     transition-duration: 2s;
 }
